@@ -1,6 +1,9 @@
 package cn.edu.seu.lone.transaction.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -8,6 +11,9 @@ import java.util.Date;
 @Entity
 @Table(name = "tb_student")
 @Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Student {
 
     @Id

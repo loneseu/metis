@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>metis-transaction</module>
+        <module>metis-netty</module>
+        <module>metis-IO</module>
+        <module>metis-security</module>
     </modules>
 
     <properties>
