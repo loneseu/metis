@@ -11,4 +11,15 @@ public class LoginController {
         System.out.println("执行登录方法");
         return "redirect:main.html";
     }
+
+    @RequestMapping("/toMain")
+    public String toMain() {
+        System.out.println("执行登录方法");
+        return "redirect:main.html";
+    }
+
+    @RequestMapping("/toError")
+    public String toError() {
+        return "redirect:error.html";
+    }
 }

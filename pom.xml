@@ -13,6 +13,7 @@
         <module>metis-netty</module>
         <module>metis-IO</module>
         <module>metis-security</module>
+        <module>metis-elk</module>
     </modules>
 
     <properties>
